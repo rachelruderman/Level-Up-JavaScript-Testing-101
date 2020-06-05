@@ -12,6 +12,6 @@ test('<Counter/>', () => {
     expect(button.textContent).toBe('0');
 
     fireEvent.click(button);
-    expect(button.textContent).toBe('1');
+    expect(button.textContent).toBe('1'); // We are testing what the user sees in the DOM; not the React state
 
 })
