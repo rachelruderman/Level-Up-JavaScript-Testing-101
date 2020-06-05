@@ -5,9 +5,8 @@ export default class MovieForm extends Component {
     render() {
         return (
             <form>
-                <input type='text'>
-                    <button>Submit</button>
-                </input>
+                <input type='text'/>
+                <button>Submit</button>
             </form>
         )
     }

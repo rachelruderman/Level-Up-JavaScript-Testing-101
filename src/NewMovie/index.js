@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import MovieForm from './MovieForm'
+import MovieForm from './index'
 
 export default class NewMovie extends Component {
 
