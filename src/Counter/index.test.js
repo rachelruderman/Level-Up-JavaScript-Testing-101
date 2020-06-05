@@ -2,8 +2,6 @@ import React from 'react';
 import { render, cleanup, fireEvent } from 'react-testing-library';
 import Counter from './index';
 
-afterEach(cleanup);
-
 test('<Counter/>', () => {
     const { debug, getByTestId } = render(<Counter/>);
     debug();
